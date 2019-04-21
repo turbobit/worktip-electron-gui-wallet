@@ -1,4 +1,4 @@
-// Configuration for your app
+﻿// Configuration for your app
 
 module.exports = function (ctx) {
     return {
@@ -176,8 +176,8 @@ module.exports = function (ctx) {
                 // https://www.electron.build/configuration/configuration
 
                 appId: "com.worktips.wallet",
-                productName: "worktips Electron Wallet",
-                copyright: "Copyright © 2018-2019 Loki Project, 2018 Ryo Currency Project",
+                productName: "Worktips Electron Wallet",
+                copyright: "Copyright © 2019 turbobit, 2018-2019 Loki Project, 2018 Ryo Currency Project",
 
                 // directories: {
                 //     buildResources: "src-electron/build"
