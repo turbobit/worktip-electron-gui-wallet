@@ -3,11 +3,6 @@
 ### Introduction
 Worktips is a private cryptocurrency based on Monero. Worktips aims to provide a private data transmission layer using a second layer of Service Nodes.
 More information on the project can be found on the [website](https://worktips.xyz) and in the [whitepaper](https://worktips.xyz/whitepaper). Worktips is an open source project, and we encourage contributions from anyone with something to offer.
-<p align="center">
- <img src="https://raw.githubusercontent.com/KeeJef/Worktips-electron-gui-wallet/master/src-electron/icons/mrcuug.PNG" width="600">
-</p>
-
-
 
 ### About this project
 
