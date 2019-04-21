@@ -1,15 +1,15 @@
 {
-  "name": "loki-electron-wallet",
-  "version": "1.1.2",
-  "daemonVersion": "3.0.4",
-  "description": "Modern GUI interface for Loki Currency",
-  "productName": "Loki Electron Wallet",
-  "cordovaId": "com.lokinetwork.wallet",
-  "author": "Loki",
+  "name": "worktips-electron-wallet",
+  "version": "2.0.0",
+  "daemonVersion": "2.0.0",
+  "description": "Modern GUI interface for Worktips Currency",
+  "productName": "Worktips Electron Wallet",
+  "cordovaId": "com.worktips.wallet",
+  "author": "turbobit",
   "private": true,
   "scripts": {
     "dev": "quasar dev -m electron -t mat",
-    "build": "quasar build -m electron -t mat",
+    "build": "quasar build -m electron -T all",
     "lint": "eslint --ext .js,.vue src",
     "lint-fix": "eslint --fix .",
     "test": "echo \"No test specified\" && exit 0"
