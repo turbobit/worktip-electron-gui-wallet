@@ -1,6 +1,6 @@
 <template>
 <span>
-    {{ value }} LOKI
+    {{ value }} WTIP
 </span>
 </template>
 
@@ -19,7 +19,7 @@ export default {
     },
     computed: {
         value () {
-            let value = this.amount / 1e9
+            let value = this.amount / 1e8
             if(this.round)
                 value = value.toFixed(3)
             return value.toLocaleString()

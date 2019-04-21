@@ -225,7 +225,7 @@ export class Backend {
 
         case "open_explorer":
             if (params.type == "tx") {
-                require("electron").shell.openExternal("https://lokiblocks.com/tx/" + params.id)
+                require("electron").shell.openExternal("https://wtip-explorer.gonspool.com/tx/" + params.id)
             }
             break
 
