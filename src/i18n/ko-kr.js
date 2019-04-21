@@ -25,7 +25,7 @@ export default {
         saveTxNotes: "SAVE TX NOTES",
         selectLocation: "SELECT LOCATION",
         selectWalletFile: "지갑 파일 선택",
-        send: "전송",
+        send: "보내기",
         sendCoins: "코인 보내기",
         serviceNode: "SERVICE NODE",
         settings: "설정",
@@ -113,7 +113,7 @@ export default {
             ok: "STAKE"
         },
         switchWallet: {
-            title: "Switch wallet",
+            title: "지갑 변경(주소 변경,Switch wallet)",
             closeMessage: "Are you sure you want to close the current wallet?",
             restartMessage: "The wallet RPC is currently syncing. \nIf you wish to switch wallets then you must restart the application. \nYou will lose your syncing progress and have to rescan the blockchain again."
         },
@@ -210,7 +210,7 @@ export default {
         copyViewKey: "Copy view key",
         createNewWallet: "Create new wallet",
         deleteWallet: "Delete Wallet",
-        exit: "Exit Loki GUI Wallet",
+        exit: "지갑 프로그램 종료",
         importOldGUIWallet: "Import wallets from old GUI",
         manageKeyImages: "Manage Key Images",
         openWallet: "Open wallet",
@@ -219,12 +219,12 @@ export default {
         restoreWalletSeed: "Restore wallet from seed",
         saveQR: "Save QR code to file",
         sendToThisAddress: "Send to this address",
-        settings: "Settings",
+        settings: "설정",
         showDetails: "Show details",
         showPrivateKeys: "Show Private Keys",
         showQRCode: "Show QR Code",
-        switchWallet: "Switch Wallet",
-        viewOnExplorer: "View on explorer"
+        switchWallet: "지갑(주소) 변경",
+        viewOnExplorer: "탐색기(웹)에서 보기"
     },
     notification: {
         positive: {
@@ -353,9 +353,9 @@ export default {
         destinationUnknown: "Destination Unknown",
         editAddressBookEntry: "Edit address book entry",
         loadingSettings: "Loading settings",
-        lokiBalance: "Balance",
+        lokiBalance: "잔고(balance)",
         lokiUnlockedBalance: "Unlocked balance",
-        lokiUnlockedShort: "Unlocked",
+        lokiUnlockedShort: "사용가능(Unlocked)",
         noTransactionsFound: "No transactions found",
         notes: "Notes",
         numberOfUnspentOutputs: "Number of unspent outputs",
@@ -371,8 +371,8 @@ export default {
         selectLanguage: "Select language",
         serviceNodeRegistrationDescription: "Enter the {registerCommand} command produced by the daemon that is registering to become a Service Node using the \"{prepareCommand}\" command",
         spendKey: "Spend key",
-        startingDaemon: "Starting daemon",
-        startingWallet: "Starting wallet",
+        startingDaemon: "daemon을 시작중입니다.",
+        startingWallet: "wallet을 시작중입니다.",
         switchToDateSelect: "Switch to date select",
         switchToHeightSelect: "Switch to height select",
         transactionID: "Transaction ID",
@@ -389,7 +389,7 @@ export default {
                 all: "All",
                 incoming: "Incoming",
                 outgoing: "Outgoing",
-                pending: "Pending",
+                pending: "대기중",
                 pendingIncoming: "Pending incoming",
                 pendingOutgoing: "Pending outgoing",
                 miner: "Miner",
@@ -407,11 +407,11 @@ export default {
     },
     titles: {
         addressBook: "Address book",
-        addressDetails: "Address details",
+        addressDetails: "Address 상세정보",
         changePassword: "Change password",
         configure: "Configure",
         privateKeys: "Private keys",
-        rescanWallet: "Rescan wallet",
+        rescanWallet: "잔액 다시 스캔(Rescan wallet)",
         serviceNode: {
             registration: "REGISTRATION",
             staking: "STAKING",
