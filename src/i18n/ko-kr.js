@@ -379,10 +379,10 @@ export default {
         transactions: {
             amount: "Amount",
             description: "{type} transaction",
-            fee: "Fee",
+            fee: "수수료",
             paidBySender: "paid by sender",
-            received: "Received",
-            sent: "Sent",
+            received: "받음",
+            sent: "전송됨",
             sentTo: "{type} transaction sent to",
             timestamp: "Timestamp",
             types: {

@@ -60,8 +60,8 @@ export class Backend {
         const daemons = {
             mainnet: {
                 ...daemon,
-                remote_host: "node.worktips.xyz",
-                remote_port: 31022
+                remote_host: "wtip-node.gonspool.com",
+                remote_port: 80
             },
             stagenet: {
                 ...daemon,
@@ -103,6 +103,10 @@ export class Backend {
         }
 
         this.remotes = [
+            {
+                host: "wtip-node.gonspool.com",
+                port: "80"
+            },
             {
                 host: "node.worktips.xyz",
                 port: "31022"
