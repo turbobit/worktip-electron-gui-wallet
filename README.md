@@ -37,6 +37,8 @@ Adding a new language is fairly simple.
    - Ref: https://github.com/egoist/vue-timeago#update-locale-globally
 5. Submit a PR with your changes.
 
+## Donation
+WTIP : WtmaSw5UdDq3rd8nmyJNUyWKZbmV6TBgn5H7kbj8vcQh6mFZvB7e8eLd3gf1VzKBuj7VeqbHg5uCQaoHfLgP42UB1cENy2VMyL
 
 ## Developed with support from ESN.
 - ESN의 지원을 받아 개발되었습니다.
